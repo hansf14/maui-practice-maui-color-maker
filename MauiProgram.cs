@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using CommunityToolkit.Maui;
 
 namespace maui_color_maker
 {
@@ -9,6 +10,7 @@ namespace maui_color_maker
       var builder = MauiApp.CreateBuilder();
       builder
         .UseMauiApp<App>()
+        .UseMauiCommunityToolkit()
         .ConfigureFonts(fonts =>
         {
           fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -16,7 +18,7 @@ namespace maui_color_maker
         });
 
 #if DEBUG
-  		builder.Logging.AddDebug();
+      builder.Logging.AddDebug();
 #endif
 
       return builder.Build();
