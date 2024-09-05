@@ -1,4 +1,4 @@
-# Maui Practice - Maui Todo List
+# Maui Practice - Maui Color Maker
 
 - **One of my personal digital nomad life projects (for practice).**
 - **Project current status: [complete]**:ballot_box_with_check:
